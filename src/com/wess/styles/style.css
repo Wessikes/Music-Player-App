@@ -1,0 +1,75 @@
+/* 
+    Created on : 8 juil. 2024, 14:57:00
+    Author     : Wess
+*/
+.root {
+    -fx-background-color: #f0f0f0;
+}
+
+.button {
+    -fx-background-color: #4CAF50;
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+}
+
+.button:hover {
+    -fx-background-color: #45a049;
+}
+
+.slider .track {
+    -fx-background-color: #ddd;
+}
+
+.slider .thumb {
+    -fx-background-color: #4CAF50;
+}
+
+.table-view {
+    -fx-background-color: #ffffff;
+}
+
+.table-view .column-header-background {
+    -fx-background-color: #4CAF50;
+}
+
+.table-view .column-header, .table-view .filler {
+    -fx-background-color: transparent;
+    -fx-text-fill: white;
+}
+
+.list-view {
+    -fx-background-color: #ffffff;
+}
+
+.list-cell:odd {
+    -fx-background-color: #f9f9f9;
+}
+
+.list-cell:even {
+    -fx-background-color: #ffffff;
+}
+
+.menu-bar {
+    -fx-background-color: #4CAF50;
+}
+
+.menu-bar .label {
+    -fx-text-fill: white;
+}
+
+.menu-item {
+    -fx-background-color: white;
+}
+
+.menu-item .label {
+    -fx-text-fill: black;
+}
+
+.menu-item:focused {
+    -fx-background-color: #4CAF50;
+}
+
+.menu-item:focused .label {
+    -fx-text-fill: white;
+}
+
